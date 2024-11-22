@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controllers.affichagePublicationController">
+   <children>
+      <TableView fx:id="tablePub" layoutX="51.0" layoutY="69.0" prefHeight="200.0" prefWidth="453.0">
+        <columns>
+          <TableColumn fx:id="id_pub" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="date_pub" prefWidth="75.0" text="DATE" />
+            <TableColumn fx:id="user_id" prefWidth="75.0" text="UserId" />
+            <TableColumn fx:id="contenu" prefWidth="75.0" text="Contenu" />
+            <TableColumn fx:id="likes" prefWidth="75.0" text="Like" />
+            <TableColumn fx:id="Username_Pub" prefWidth="75.0" text="Username" />
+        </columns>
+      </TableView>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#returnbtn" text="&lt;--" />
+      <Button layoutX="252.0" layoutY="303.0" mnemonicParsing="false" onAction="#addp" text="Ajout Publication" />
+      <Button layoutX="95.0" layoutY="303.0" mnemonicParsing="false" onAction="#ExportP" text="ExportExcel" />
+   </children>
+</AnchorPane>

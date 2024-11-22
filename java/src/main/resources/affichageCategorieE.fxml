@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controllers.affichageCateE">
+   <children>
+      <TableView fx:id="tablecate" layoutX="67.0" layoutY="59.0" prefHeight="200.0" prefWidth="496.0">
+        <columns>
+          <TableColumn fx:id="id_cate" prefWidth="75.0" text="ID_CATE" />
+          <TableColumn fx:id="Nomcate" prefWidth="75.0" text="Nom" />
+            <TableColumn fx:id="descCate" prefWidth="345.0" text="Description" />
+        </columns>
+      </TableView>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#returnbtn" text="&lt;--" />
+      <Button layoutX="219.0" layoutY="296.0" mnemonicParsing="false" onAction="#addbtn" prefHeight="25.0" prefWidth="141.0" text="Ajout categorie" />
+   </children>
+</AnchorPane>

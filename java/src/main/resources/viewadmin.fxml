@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controllers.viewadmin">
+   <children>
+      <Button layoutX="128.0" layoutY="175.0" mnemonicParsing="false" onAction="#eventbtn" prefHeight="25.0" prefWidth="120.0" text="Gestion Event" />
+      <Button layoutX="347.0" layoutY="175.0" mnemonicParsing="false" onAction="#catebtn" prefHeight="25.0" prefWidth="120.0" text="Gestion CateEvent" />
+      <Button layoutX="104.0" layoutY="253.0" mnemonicParsing="false" onAction="#pub" prefHeight="25.0" prefWidth="120.0" text="Gestion Publication" />
+      <Button layoutX="333.0" layoutY="253.0" mnemonicParsing="false" onAction="#commentaire" prefHeight="25.0" prefWidth="149.0" text="Gestion Commentaire" />
+   </children>
+</AnchorPane>
