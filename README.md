@@ -1,5 +1,6 @@
 # Pidev_Java
 🎨 CultureVibes
+
 CultureVibes is a modern desktop application developed in JavaFX, designed to manage and celebrate cultural events efficiently. This application offers a range of features that streamline event creation, organization, and management, all while providing users with an intuitive and visually appealing interface.
 
 🌟 Overview
@@ -7,6 +8,7 @@ CultureVibes is a modern desktop application developed in JavaFX, designed to ma
 CultureVibes is a desktop-based solution for managing cultural events. It simplifies the process for both organizers and participants, allowing users to add, edit, or explore events. The application focuses on enhancing the user experience with robust functionality and seamless interaction.
 
 🔑 Features
+
 
 🎭 Event Management
 
@@ -36,9 +38,7 @@ Stay informed about updates or reminders with real-time desktop notifications.
 
 💻 Technologies Used
 
-Frontend: JavaFX (UI/UX design for desktop applications)
-
+Frontend: JavaFX 
 Backend: Java
 Database: MySQL (storing event data)
-File Exporting: iText (for generating PDFs)
 Charts and Statistics: JavaFX APIs for graphs and analytics
