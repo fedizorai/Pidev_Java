@@ -41,4 +41,4 @@ Stay informed about updates or reminders with real-time desktop notifications.
 Frontend: JavaFX 
 Backend: Java
 Database: MySQL (storing event data)
-Charts and Statistics: JavaFX APIs for graphs and analytics
+Charts and Statistics: JavaFX APIs for graphs and analytics.
